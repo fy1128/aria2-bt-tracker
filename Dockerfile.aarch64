@@ -1,4 +1,5 @@
-FROM amd64/alpine:3.8
+FROM multiarch/alpine:aarch64-edge
+LABEL maintainer "hanxi hanxi.info@gmail.com"
 
 # Install packages
 RUN apk --no-cache add curl
